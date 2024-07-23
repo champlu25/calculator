@@ -1,0 +1,94 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.display {
+  width: 100%;
+  max-width: 200px;
+  height: 365px;
+  background-color: #030303;
+  color: #fff;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(53, 39, 39, 0.2);
+  overflow: hidden;
+}
+
+.calcOutput {
+  height: 40px;
+  background-color: #8fa896;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 200px;
+}
+
+.buttons ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.buttons li {
+  flex: 1 1 33.33%;
+  box-sizing: border-box;
+}
+
+.buttonNumbers,
+.buttonSum,
+.buttonSubtraction,
+.buttonReset,
+.buttonResult {
+  width: 100%;
+  font-size: 25px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonNumbers:hover,
+.buttonSum:hover,
+.buttonSubtraction:hover,
+.buttonReset:hover,
+.buttonResult:hover {
+  background-color: #d0d0d0;
+}
+
+.buttonSum,
+.buttonSubtraction,
+.buttonReset,
+.buttonResult {
+  background-color: #4eb0ce;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+
+.buttonSum:hover,
+.buttonSubtraction:hover,
+.buttonReset:hover,
+.buttonResult:hover {
+  background-color: rgba(41, 41, 92, 0.884);
+}
+
+.buttonSubtraction {
+  margin-bottom: 10px;
+}
